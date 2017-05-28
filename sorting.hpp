@@ -1,6 +1,12 @@
-//
-// Created by Neil on 5/23/2017.
-//
+/**************************************************************
+ * Author: Neil Johnson
+ *
+ * Date: 4.26.2017
+ *
+ * Description: This is the sorting header file for the various features
+ * inside of the main function.  In hear we are hosting the ability
+ * to perform a linear / quick sort / binary search functionality.
+**************************************************************/
 
 #ifndef LAB_8_SORTING_HPP
 #define LAB_8_SORTING_HPP
@@ -12,6 +18,7 @@
 
 bool linearSearch(std::string,int);
 void quickSort(std::vector<int>, int, int);
+bool binarySearch(std::vector<int>, int, int, int);
 
 
 
